@@ -1,7 +1,7 @@
 # MGMAR
 
 Code for **MGMAR: Metal-Guided Metal Artifact Reduction for X-ray Computed Tomography**
-([arXiv:2603.13447](https://arxiv.org/abs/2603.13447)). 
+ 
 
 ## Pipeline
 
