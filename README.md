@@ -40,7 +40,10 @@ Tested on Linux (x86-64) with an NVIDIA RTX 3090. The fan-beam projector is a pr
 conda create -n mgmar python=3.8 && conda activate mgmar
 pip install torch==1.12.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install -r requirements.txt
-# install torch-radon following its repository
+
+# torch-radon is not on PyPI; build it from source (requires the CUDA toolkit)
+git clone https://github.com/matteo-ronchetti/torch-radon.git
+cd torch-radon && python setup.py install
 ```
 
 ## Usage
